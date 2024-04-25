@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Example</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Đường dẫn tới hình ảnh nền */
+            background-size: cover; /* Đảm bảo hình ảnh nền phủ đầy toàn bộ khu vực */
+            background-position: center; /* Hiển thị hình ảnh ở giữa trung tâm */
+            height: 100vh; /* Chiều cao của trang web bằng toàn bộ chiều cao của màn hình */
+            margin: 0; /* Loại bỏ các phần khoảng trắng xung quanh */
+            display: flex; /* Hiển thị các phần tử theo kiểu flexbox */
+            justify-content: center; /* Canh giữa các phần tử theo chiều ngang */
+            align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+        }
+
+        .content {
+            text-align: center; /* Canh lề văn bản vào giữa */
+            color: white; /* Màu văn bản */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is the content of my website.</p>
+    </div>
+</body>
+</html>
