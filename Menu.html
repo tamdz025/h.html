@@ -1,0 +1,27 @@
+def menu_chinh():
+    print("Menu Chính:")
+    print("1. Mod Pack")
+    print("2. Mod Skin Lẻ")
+    print("3. Thoát")
+
+def mod_pack():
+    print("Bạn đã chọn Mod Pack.")
+    # Thực hiện các hành động liên quan đến Mod Pack ở đây
+
+def mod_skin_le():
+    print("Bạn đã chọn Mod Skin Lẻ.")
+    # Thực hiện các hành động liên quan đến Mod Skin Lẻ ở đây
+
+while True:
+    menu_chinh()
+    lua_chon = input("Nhập lựa chọn của bạn: ")
+
+    if lua_chon == '1':
+        mod_pack()
+    elif lua_chon == '2':
+        mod_skin_le()
+    elif lua_chon == '3':
+        print("Cảm ơn bạn đã sử dụng menu game Liên Quân!")
+        break
+    else:
+        print("Lựa chọn không hợp lệ. Vui lòng chọn lại.")
